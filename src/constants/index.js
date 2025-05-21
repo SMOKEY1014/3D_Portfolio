@@ -226,9 +226,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Forever E-commerce Store",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Full-featured e-commerce website where customers can browse, search, and purchase clothing products online, providing a seamless digital shopping experience.",
     tags: [
       {
         name: "react",
@@ -244,12 +244,12 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/SMOKEY1014/eStore",
   },
   {
-    name: "Job IT",
+    name: "Airbnb Clone",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web platform that replicates Airbnb’s core functionalities, allowing users to list, browse, and book properties, designed with a clean UI and responsive layout.",
     tags: [
       {
         name: "react",
@@ -260,33 +260,37 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "firebase",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/SMOKEY1014/airbnb-yarn",
   },
   {
-    name: "Trip Guide",
+    name: "TikTactoe Game",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Web-based interactive game where users can play a modern version of tic-tac-toe with smart UI updates and instant feedback, offering a fun and engaging experience for casual gamers.",
     tags: [
       {
-        name: "nextjs",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/SMOKEY1014/tic-tac-toe",
   },
 ];
 
