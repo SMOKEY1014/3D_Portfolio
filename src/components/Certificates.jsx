@@ -29,7 +29,7 @@ const CertificateCard = ({
         <div className="relative w-full h-[230px]">
           <img
             src={image}
-            alt="certificate_image"
+            alt={`${name} certificate`}
             className="w-full h-full object-cover rounded-2xl"
           />
 
