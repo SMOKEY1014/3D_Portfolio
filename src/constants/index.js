@@ -296,15 +296,44 @@ const projects = [
 
 const certificates = [
   {
+    name: "Diploma in ICT in Application Development",
+    description: "Three-year diploma focusing on application development, databases, networking, and software engineering fundamentals.",
+    tags: [
+    { name: "Application Development", color: "blue-text-gradient" },
+    { name: "Mobile Apps", color: "green-text-gradient" },
+    { name: "Networking", color: "pink-text-gradient" },
+    { name: "Project Management", color: "green-text-gradient" },
+    { name: "Information Systems", color: "blue-text-gradient" },
+    { name: "Cybersecurity", color: "pink-text-gradient" }
+  ],
+    image: "/assets/certificates/diploma.jpg",
+    certificate_link: "#", // TODO: Replace with a valid PDF or public verification link when available
+  },
+  {
+    
     name: "ALX Software Engineering Certificate",
     description: "18-month full-stack software engineering program focused on real-world problem solving and scalable software development.",
     tags: [
       { name: "Fullstack", color: "blue-text-gradient" },
       { name: "C", color: "green-text-gradient" },
       { name: "Python", color: "pink-text-gradient" },
+      { name: "Information Security", color: "green-text-gradient" }
     ],
     image: "/assets/certificates/alx.png", // Replace with actual image path or URL
     certificate_link: "https://savanna.alxafrica.com/certificates/Z9SM7nfTPx",
+  },
+  {
+    name: "Google Cybersecurity Professional Certificate",
+    description: "Google-backed certification covering security operations, threat detection, risk mitigation, and SIEM tools.",
+    tags: [
+      { name: "Google", color: "blue-text-gradient" },
+      { name: "Security", color: "green-text-gradient" },
+      { name: "Threat Analysis", color: "pink-text-gradient" },
+      { name: "Vulnerability Management", color: "green-text-gradient" },
+      { name: "Cybersecurity Processes", color: "blue-text-gradient" }
+    ],
+    image: "/assets/certificates/google.jpg",
+    certificate_link: "https://coursera.org/share/2da67368b789e455ba4454ae0be9ebe8",
   },
   {
     name: "Cisco Introduction to Cybersecurity",
@@ -312,6 +341,8 @@ const certificates = [
     tags: [
       { name: "Cybersecurity", color: "green-text-gradient" },
       { name: "Cisco", color: "blue-text-gradient" },
+      { name: "Cyber Attacks", color: "pink-text-gradient" },
+      { name: "Risk Management", color: "green-text-gradient" }
     ],
     image: "/assets/certificates/cisco.png",
     certificate_link: "https://www.netacad.com/certificates?issuanceId=0cdb9b0a-ae9b-4d93-b0dc-9b383e3a8f7a",
@@ -336,19 +367,10 @@ const certificates = [
     tags: [
       { name: "Linux", color: "green-text-gradient" },
       { name: "Command Line", color: "pink-text-gradient" },
+      { name: "Information Security", color: "blue-text-gradient" }
     ],
     image: "/assets/certificates/linux.png",
     certificate_link: "https://www.netacad.com/certificates?issuanceId=ca7afdd6-1eda-4b11-988d-8ab63a94ad74",
-  },
-  {
-    name: "Google Cybersecurity Professional Certificate",
-    description: "Google-backed certification covering security operations, threat detection, risk mitigation, and SIEM tools.",
-    tags: [
-      { name: "Google", color: "blue-text-gradient" },
-      { name: "Security", color: "green-text-gradient" },
-    ],
-    image: "/assets/certificates/google.png",
-    certificate_link: "https://coursera.org/share/2da67368b789e455ba4454ae0be9ebe8",
   },
   {
     name: "Microsoft SC-300: Identity and Access Administrator",
@@ -356,6 +378,7 @@ const certificates = [
     tags: [
       { name: "Microsoft", color: "blue-text-gradient" },
       { name: "Identity", color: "green-text-gradient" },
+      { name: "Risk Management", color: "pink-text-gradient" }
     ],
     image: "/assets/certificates/sc300.png",
     certificate_link: "https://learn.microsoft.com/api/credentials/share/en-us/NDhlamini22007011/F1E2ADA29ABC8CD5?sharingId=7D6277F8D0C8EB6",
@@ -366,6 +389,8 @@ const certificates = [
     tags: [
       { name: "Microsoft", color: "blue-text-gradient" },
       { name: "Compliance", color: "pink-text-gradient" },
+      { name: "Cryptography", color: "green-text-gradient" },
+      { name: "Information Security", color: "blue-text-gradient" }
     ],
     image: "/assets/certificates/sc400.png",
     certificate_link: "https://learn.microsoft.com/api/credentials/share/en-us/NDhlamini22007011/C8F7378A30723854?sharingId=7D6277F8D0C8EB6",
@@ -376,20 +401,11 @@ const certificates = [
     tags: [
       { name: "Security", color: "green-text-gradient" },
       { name: "Fundamentals", color: "blue-text-gradient" },
+      { name: "Cybersecurity Processes", color: "pink-text-gradient" },
+      { name: "Incident Response", color: "green-text-gradient" }
     ],
     image: "/assets/certificates/sc900.png",
     certificate_link: "https://learn.microsoft.com/api/credentials/share/en-us/NDhlamini22007011/F31BF56D09B94D55?sharingId=7D6277F8D0C8EB6",
-  },
-  {
-    name: "Diploma in ICT in Application Development",
-    description: "Three-year diploma focusing on application development, databases, networking, and software engineering fundamentals.",
-    tags: [
-      { name: "Diploma", color: "blue-text-gradient" },
-      { name: "Java", color: "green-text-gradient" },
-      { name: "SQL", color: "pink-text-gradient" },
-    ],
-    image: "/assets/certificates/diploma.png",
-    certificate_link: "#", // TODO: Replace with a valid PDF or public verification link when available
   },
 ];
 
