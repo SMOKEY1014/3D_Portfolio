@@ -32,14 +32,14 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
-import cisco from "./certificates/cisco.png"
-import diploma from "./certificates/diploma.png"
-import google from "./certificates/google.png"
-import iot from "./certificates/iot.png"
-import linux from "./certificates/linux.png"
-import sc300 from "./certificates/sc300.png"
-import sc400 from "./certificates/sc400.png"
-import sc900 from "./certificates/sc900.png"
+import cisco from "./certificates/cisco.png";
+import diploma from "./certificates/diploma.png";
+import google from "./certificates/google.png";
+import iot from "./certificates/iot.png";
+import linux from "./certificates/linux.png";
+import sc300 from "./certificates/sc300.png";
+import sc400 from "./certificates/sc400.png";
+import sc900 from "./certificates/sc900.png";
 
 export {
   logo,
