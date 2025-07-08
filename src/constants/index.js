@@ -25,6 +25,15 @@ import {
   jobit,
   tripguide,
   threejs,
+  cisco,
+  diploma,
+  google,
+  iot,
+  linux,
+  sc300,
+  sc400,
+  sc900,
+  alx,
 } from "../assets";
 
 export const navLinks = [
@@ -306,7 +315,8 @@ const certificates = [
     { name: "Information Systems", color: "blue-text-gradient" },
     { name: "Cybersecurity", color: "pink-text-gradient" }
   ],
-    image: "/assets/certificates/diploma.jpg",
+    //image: "/assets/certificates/diploma.jpg",
+    image: diploma,
     certificate_link: "#", // TODO: Replace with a valid PDF or public verification link when available
   },
   {
@@ -319,7 +329,8 @@ const certificates = [
       { name: "Python", color: "pink-text-gradient" },
       { name: "Information Security", color: "green-text-gradient" }
     ],
-    image: "/assets/certificates/alx.png", // Replace with actual image path or URL
+    //image: "/assets/certificates/alx.png", // Replace with actual image path or URL
+      image: alx,
     certificate_link: "https://savanna.alxafrica.com/certificates/Z9SM7nfTPx",
   },
   {
@@ -332,7 +343,8 @@ const certificates = [
       { name: "Vulnerability Management", color: "green-text-gradient" },
       { name: "Cybersecurity Processes", color: "blue-text-gradient" }
     ],
-    image: "/assets/certificates/google.jpg",
+    //image: "/assets/certificates/google.jpg",
+    image: google,
     certificate_link: "https://coursera.org/share/2da67368b789e455ba4454ae0be9ebe8",
   },
   {
@@ -344,7 +356,8 @@ const certificates = [
       { name: "Cyber Attacks", color: "pink-text-gradient" },
       { name: "Risk Management", color: "green-text-gradient" }
     ],
-    image: "/assets/certificates/cisco.png",
+    //image: "/assets/certificates/cisco.png",
+    image: cisco,
     certificate_link: "https://www.netacad.com/certificates?issuanceId=0cdb9b0a-ae9b-4d93-b0dc-9b383e3a8f7a",
   },
   {
@@ -358,7 +371,8 @@ const certificates = [
       { name: "Digital Transformation", color: "blue-text-gradient" },
     {   name: "Information Security", color: "pink-text-gradient" }
   ],
-    image: "/assets/certificates/iot.png", // Replace with actual uploaded filename
+    //image: "/assets/certificates/iot.png", // Replace with actual uploaded filename
+    image: iot,
     certificate_link: "https://www.netacad.com/certificates?issuanceId=0cdb9b0a-ae9b-4d93-b0dc-9b383e3a8f7a" // Or personal verification link if available
   },
   {
@@ -369,7 +383,8 @@ const certificates = [
       { name: "Command Line", color: "pink-text-gradient" },
       { name: "Information Security", color: "blue-text-gradient" }
     ],
-    image: "/assets/certificates/linux.png",
+    //image: "/assets/certificates/linux.png",
+    image: linux,
     certificate_link: "https://www.netacad.com/certificates?issuanceId=ca7afdd6-1eda-4b11-988d-8ab63a94ad74",
   },
   {
@@ -380,7 +395,8 @@ const certificates = [
       { name: "Identity", color: "green-text-gradient" },
       { name: "Risk Management", color: "pink-text-gradient" }
     ],
-    image: "/assets/certificates/sc300.png",
+    //image: "/assets/certificates/sc300.png",
+    image: sc300,
     certificate_link: "https://learn.microsoft.com/api/credentials/share/en-us/NDhlamini22007011/F1E2ADA29ABC8CD5?sharingId=7D6277F8D0C8EB6",
   },
   {
@@ -392,7 +408,8 @@ const certificates = [
       { name: "Cryptography", color: "green-text-gradient" },
       { name: "Information Security", color: "blue-text-gradient" }
     ],
-    image: "/assets/certificates/sc400.png",
+    //image: "/assets/certificates/sc400.png",
+    image: sc400,
     certificate_link: "https://learn.microsoft.com/api/credentials/share/en-us/NDhlamini22007011/C8F7378A30723854?sharingId=7D6277F8D0C8EB6",
   },
   {
@@ -404,7 +421,8 @@ const certificates = [
       { name: "Cybersecurity Processes", color: "pink-text-gradient" },
       { name: "Incident Response", color: "green-text-gradient" }
     ],
-    image: "/assets/certificates/sc900.png",
+    //image: "/assets/certificates/sc900.png",
+    image: sc900,
     certificate_link: "https://learn.microsoft.com/api/credentials/share/en-us/NDhlamini22007011/F31BF56D09B94D55?sharingId=7D6277F8D0C8EB6",
   },
 ];

@@ -40,6 +40,8 @@ import linux from "./certificates/linux.png";
 import sc300 from "./certificates/sc300.png";
 import sc400 from "./certificates/sc400.png";
 import sc900 from "./certificates/sc900.png";
+import alx from "./certificates/alx.png";
+
 
 export {
   logo,
@@ -79,5 +81,6 @@ export {
   linux,
   sc300,
   sc400,
-  sc900
+  sc900,
+  alx
 };
