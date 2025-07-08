@@ -204,7 +204,7 @@ const testimonials = [
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: "https://randomuser.me/api/portraits/women/4.png",
   },
   {
     testimonial:
@@ -212,7 +212,7 @@ const testimonials = [
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: "https://randomuser.me/api/portraits/men/5.png",
   },
   {
     testimonial:
@@ -220,7 +220,7 @@ const testimonials = [
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: "https://randomuser.me/api/portraits/women/6.png",
   },
 ];
 
@@ -319,8 +319,8 @@ const certificates = [
       { name: "Python", color: "pink-text-gradient" },
       { name: "Information Security", color: "green-text-gradient" }
     ],
-    image: "/assets/certificates/alx.jpg", // Replace with actual image path or URL
-    certificate_link: "https://www.alxafrica.com/",
+    image: "/assets/certificates/alx.png", // Replace with actual image path or URL
+    certificate_link: "https://savanna.alxafrica.com/certificates/Z9SM7nfTPx",
   },
   {
     name: "Google Cybersecurity Professional Certificate",
@@ -333,7 +333,7 @@ const certificates = [
       { name: "Cybersecurity Processes", color: "blue-text-gradient" }
     ],
     image: "/assets/certificates/google.jpg",
-    certificate_link: "https://grow.google/certificates/cybersecurity/",
+    certificate_link: "https://coursera.org/share/2da67368b789e455ba4454ae0be9ebe8",
   },
   {
     name: "Cisco Introduction to Cybersecurity",
@@ -344,8 +344,22 @@ const certificates = [
       { name: "Cyber Attacks", color: "pink-text-gradient" },
       { name: "Risk Management", color: "green-text-gradient" }
     ],
-    image: "/assets/certificates/cisco.jpg",
-    certificate_link: "https://www.netacad.com/courses/cybersecurity/introduction-cybersecurity",
+    image: "/assets/certificates/cisco.png",
+    certificate_link: "https://www.netacad.com/certificates?issuanceId=0cdb9b0a-ae9b-4d93-b0dc-9b383e3a8f7a",
+  },
+  {
+    name: "Cisco Introduction to IoT",
+    description: "This course introduces the Internet of Things (IoT) and its transformative impact on industries, environments, and our everyday lives. It covers the fundamentals of IoT, including concepts like digital transformation, sensors, actuators, data flow, and the role of cybersecurity in connected systems.",
+    tags: [
+      { name: "IoT", color: "blue-text-gradient" },
+      { name: "Cisco", color: "green-text-gradient" },
+      { name: "Cybersecurity", color: "pink-text-gradient" },
+      { name: "Networking", color: "green-text-gradient" },
+      { name: "Digital Transformation", color: "blue-text-gradient" },
+    {   name: "Information Security", color: "pink-text-gradient" }
+  ],
+    image: "/assets/certificates/iot.png", // Replace with actual uploaded filename
+    certificate_link: "https://www.netacad.com/certificates?issuanceId=0cdb9b0a-ae9b-4d93-b0dc-9b383e3a8f7a" // Or personal verification link if available
   },
   {
     name: "NDG Linux Unhatched",
@@ -355,8 +369,8 @@ const certificates = [
       { name: "Command Line", color: "pink-text-gradient" },
       { name: "Information Security", color: "blue-text-gradient" }
     ],
-    image: "/assets/certificates/linux.jpg",
-    certificate_link: "https://www.netacad.com/courses/os-it/ndg-linux-unhatched",
+    image: "/assets/certificates/linux.png",
+    certificate_link: "https://www.netacad.com/certificates?issuanceId=ca7afdd6-1eda-4b11-988d-8ab63a94ad74",
   },
   {
     name: "Microsoft SC-300: Identity and Access Administrator",
@@ -366,8 +380,8 @@ const certificates = [
       { name: "Identity", color: "green-text-gradient" },
       { name: "Risk Management", color: "pink-text-gradient" }
     ],
-    image: "/assets/certificates/sc300.jpg",
-    certificate_link: "https://learn.microsoft.com/en-us/certifications/exams/sc-300/",
+    image: "/assets/certificates/sc300.png",
+    certificate_link: "https://learn.microsoft.com/api/credentials/share/en-us/NDhlamini22007011/F1E2ADA29ABC8CD5?sharingId=7D6277F8D0C8EB6",
   },
   {
     name: "Microsoft SC-400: Information Protection Administrator",
@@ -378,8 +392,8 @@ const certificates = [
       { name: "Cryptography", color: "green-text-gradient" },
       { name: "Information Security", color: "blue-text-gradient" }
     ],
-    image: "/assets/certificates/sc400.jpg",
-    certificate_link: "https://learn.microsoft.com/en-us/certifications/exams/sc-400/",
+    image: "/assets/certificates/sc400.png",
+    certificate_link: "https://learn.microsoft.com/api/credentials/share/en-us/NDhlamini22007011/C8F7378A30723854?sharingId=7D6277F8D0C8EB6",
   },
   {
     name: "Microsoft SC-900: Security, Compliance, and Identity Fundamentals",
@@ -390,10 +404,9 @@ const certificates = [
       { name: "Cybersecurity Processes", color: "pink-text-gradient" },
       { name: "Incident Response", color: "green-text-gradient" }
     ],
-    image: "/assets/certificates/sc900.jpg",
-    certificate_link: "https://learn.microsoft.com/en-us/certifications/exams/sc-900/",
+    image: "/assets/certificates/sc900.png",
+    certificate_link: "https://learn.microsoft.com/api/credentials/share/en-us/NDhlamini22007011/F31BF56D09B94D55?sharingId=7D6277F8D0C8EB6",
   },
-
 ];
 
 export { services, technologies, experiences, testimonials, projects, certificates };

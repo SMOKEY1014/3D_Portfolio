@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 // Removed github icon
 import { SectionWrapper } from "../hoc";
-import { certificates } from "../constants"; // You’ll need to create this
+import { certificates } from "../constants"; // You’ll need to create this later
 import { fadeIn, textVariant } from "../utils/motion";
 
 const CertificateCard = ({
