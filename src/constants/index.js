@@ -218,7 +218,7 @@ const testimonials = [
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Ntuthuko does.",
-    name: "Chris Brown",
+    name: "Chris Fernando",
     designation: "COO",
     company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.png",
@@ -327,6 +327,7 @@ const certificates = [
       { name: "Fullstack", color: "blue-text-gradient" },
       { name: "C", color: "green-text-gradient" },
       { name: "Python", color: "pink-text-gradient" },
+      { name: "Project Management", color: "red-text-gradient" },
       { name: "Information Security", color: "green-text-gradient" }
     ],
     //image: "/assets/certificates/alx.png", // Replace with actual image path or URL
@@ -362,10 +363,9 @@ const certificates = [
   },
   {
     name: "Cisco Introduction to IoT",
-    description: "This course introduces the Internet of Things (IoT) and its transformative impact on industries, environments, and our everyday lives. It covers the fundamentals of IoT, including concepts like digital transformation, sensors, actuators, data flow, and the role of cybersecurity in connected systems.",
+    description: "Internet of Things (IoT) and its transformative impact. It covers the fundamentals of IoT, including concepts like digital transformation, sensors, actuators, data flow, and the role of cybersecurity in connected systems.",
     tags: [
       { name: "IoT", color: "blue-text-gradient" },
-      { name: "Cisco", color: "green-text-gradient" },
       { name: "Cybersecurity", color: "pink-text-gradient" },
       { name: "Networking", color: "green-text-gradient" },
       { name: "Digital Transformation", color: "blue-text-gradient" },
@@ -376,9 +376,10 @@ const certificates = [
     certificate_link: "https://www.netacad.com/certificates?issuanceId=0cdb9b0a-ae9b-4d93-b0dc-9b383e3a8f7a" // Or personal verification link if available
   },
   {
-    name: "NDG Linux Unhatched",
+    name: "NDG Linux Unhatched Cisco",
     description: "An introductory course into Linux command-line usage and concepts, preparing learners for further Linux training.",
     tags: [
+      { name: "Cisco", color: "red-text-gradient" },
       { name: "Linux", color: "green-text-gradient" },
       { name: "Command Line", color: "pink-text-gradient" },
       { name: "Information Security", color: "blue-text-gradient" }
@@ -394,6 +395,7 @@ const certificates = [
       { name: "Microsoft", color: "blue-text-gradient" },
       { name: "Identity", color: "green-text-gradient" },
       { name: "Risk Management", color: "pink-text-gradient" }
+      { name: "Information Security", color: "blue-text-gradient" }
     ],
     //image: "/assets/certificates/sc300.png",
     image: sc300,
@@ -413,11 +415,10 @@ const certificates = [
     certificate_link: "https://learn.microsoft.com/api/credentials/share/en-us/NDhlamini22007011/C8F7378A30723854?sharingId=7D6277F8D0C8EB6",
   },
   {
-    name: "Microsoft SC-900: Security, Compliance, and Identity Fundamentals",
+    name: "Microsoft SC-900: Security, Compliance, and Identity",
     description: "Entry-level cert introducing core security, compliance, and identity concepts in Microsoft services.",
     tags: [
       { name: "Security", color: "green-text-gradient" },
-      { name: "Fundamentals", color: "blue-text-gradient" },
       { name: "Cybersecurity Processes", color: "pink-text-gradient" },
       { name: "Incident Response", color: "green-text-gradient" }
     ],
