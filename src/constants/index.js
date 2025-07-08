@@ -294,4 +294,89 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const certificates = [
+  {
+    name: "ALX Software Engineering Certificate",
+    description: "18-month full-stack software engineering program focused on real-world problem solving and scalable software development.",
+    tags: [
+      { name: "Fullstack", color: "blue-text-gradient" },
+      { name: "C", color: "green-text-gradient" },
+      { name: "Python", color: "pink-text-gradient" },
+    ],
+    image: "/assets/certificates/alx.jpg", // Replace with actual image path or URL
+    certificate_link: "https://www.alxafrica.com/",
+  },
+  {
+    name: "Cisco Introduction to Cybersecurity",
+    description: "Covers the basics of cybersecurity, types of threats, and best practices for securing networks and devices.",
+    tags: [
+      { name: "Cybersecurity", color: "green-text-gradient" },
+      { name: "Cisco", color: "blue-text-gradient" },
+    ],
+    image: "/assets/certificates/cisco.jpg",
+    certificate_link: "https://www.netacad.com/courses/cybersecurity/introduction-cybersecurity",
+  },
+  {
+    name: "NDG Linux Unhatched",
+    description: "An introductory course into Linux command-line usage and concepts, preparing learners for further Linux training.",
+    tags: [
+      { name: "Linux", color: "green-text-gradient" },
+      { name: "Command Line", color: "pink-text-gradient" },
+    ],
+    image: "/assets/certificates/linux.jpg",
+    certificate_link: "https://www.netacad.com/courses/os-it/ndg-linux-unhatched",
+  },
+  {
+    name: "Google Cybersecurity Professional Certificate",
+    description: "Google-backed certification covering security operations, threat detection, risk mitigation, and SIEM tools.",
+    tags: [
+      { name: "Google", color: "blue-text-gradient" },
+      { name: "Security", color: "green-text-gradient" },
+    ],
+    image: "/assets/certificates/google.jpg",
+    certificate_link: "https://grow.google/certificates/cybersecurity/",
+  },
+  {
+    name: "Microsoft SC-300: Identity and Access Administrator",
+    description: "Covers identity lifecycle management, authentication, access management, and Microsoft Entra ID.",
+    tags: [
+      { name: "Microsoft", color: "blue-text-gradient" },
+      { name: "Identity", color: "green-text-gradient" },
+    ],
+    image: "/assets/certificates/sc300.jpg",
+    certificate_link: "https://learn.microsoft.com/en-us/certifications/exams/sc-300/",
+  },
+  {
+    name: "Microsoft SC-400: Information Protection Administrator",
+    description: "Focuses on information protection, data loss prevention, and governance using Microsoft 365 tools.",
+    tags: [
+      { name: "Microsoft", color: "blue-text-gradient" },
+      { name: "Compliance", color: "pink-text-gradient" },
+    ],
+    image: "/assets/certificates/sc400.jpg",
+    certificate_link: "https://learn.microsoft.com/en-us/certifications/exams/sc-400/",
+  },
+  {
+    name: "Microsoft SC-900: Security, Compliance, and Identity Fundamentals",
+    description: "Entry-level cert introducing core security, compliance, and identity concepts in Microsoft services.",
+    tags: [
+      { name: "Security", color: "green-text-gradient" },
+      { name: "Fundamentals", color: "blue-text-gradient" },
+    ],
+    image: "/assets/certificates/sc900.jpg",
+    certificate_link: "https://learn.microsoft.com/en-us/certifications/exams/sc-900/",
+  },
+  {
+    name: "Diploma in ICT in Application Development",
+    description: "Three-year diploma focusing on application development, databases, networking, and software engineering fundamentals.",
+    tags: [
+      { name: "Diploma", color: "blue-text-gradient" },
+      { name: "Java", color: "green-text-gradient" },
+      { name: "SQL", color: "pink-text-gradient" },
+    ],
+    image: "/assets/certificates/diploma.jpg",
+    certificate_link: "#", // TODO: Replace with a valid PDF or public verification link when available
+  },
+];
+
+export { services, technologies, experiences, testimonials, projects, certificates };
