@@ -32,8 +32,8 @@ import {
   linux,
   sc300,
   sc400,
-  sc900, 
-  alx
+  sc900,
+  alx,
 } from "../assets";
 
 export const navLinks = [
