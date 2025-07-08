@@ -394,7 +394,7 @@ const certificates = [
     tags: [
       { name: "Microsoft", color: "blue-text-gradient" },
       { name: "Identity", color: "green-text-gradient" },
-      { name: "Risk Management", color: "pink-text-gradient" }
+      { name: "Risk Management", color: "pink-text-gradient" },
       { name: "Information Security", color: "blue-text-gradient" }
     ],
     //image: "/assets/certificates/sc300.png",
