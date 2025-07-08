@@ -375,7 +375,7 @@ const certificates = [
       { name: "SQL", color: "pink-text-gradient" },
     ],
     image: "/assets/certificates/diploma.jpg",
-    certificate_link: "#", // Replace with PDF or public verification link if available
+    certificate_link: "#", // TODO: Replace with a valid PDF or public verification link when available
   },
 ];
 
