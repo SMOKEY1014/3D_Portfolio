@@ -166,11 +166,11 @@ const experiences = [
     ],
   },
   {
-    title: "Parts Receiving Clerk",
+    title: "Parts Receiving Clerk and Sales Executive",
     company_name: "Audi Centre Newcastle",
     icon: meta,
     iconBg: "#383E56",
-    date: "Oct 2022 - May 2025",
+    date: "Oct 2022 - Current",
     points: [
       "Managed automotive parts inventory, ensuring accuracy in stock levels and order entries.",
       "Coordinated with service advisors and technicians to streamline workshop operations.",
