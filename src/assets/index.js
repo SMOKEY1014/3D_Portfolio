@@ -41,6 +41,8 @@ import sc300 from "./certificates/sc300.png";
 import sc400 from "./certificates/sc400.png";
 import sc900 from "./certificates/sc900.png";
 import alx from "./certificates/alx.png";
+import shortcutzBarber from "./shortcutzBarber.png";
+import vwDealership from "./vwDealership.png";
 
 
 export {
