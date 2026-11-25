@@ -255,7 +255,7 @@ const projects = [
       },
     ],
     image: vwDealership, // Replace with your imported asset
-    source_code_link: "https://github.com/SMOKEY1014/", // Add exact repo link
+    source_code_link: "https://docrat-volkswagen.ai.studio/", // Add exact repo link
   },
   {
     name: "Shortcutz Barber",
@@ -276,7 +276,7 @@ const projects = [
       },
     ],
     image: shortcutzBarber, // Replace with your imported asset
-    source_code_link: "https://github.com/SMOKEY1014/", // Add exact repo link
+    source_code_link: "https://shortcutzbarber.ai.studio/", // Add exact repo link
   },
   {
     name: "Forever E-commerce Store",
