@@ -34,6 +34,8 @@ import {
   sc400,
   sc900,
   alx,
+  shortcutzBarber,
+  vwDealership,
 } from "../assets";
 
 export const navLinks = [
@@ -127,6 +129,19 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Parts Receiving Clerk and Sales Executive",
+    company_name: "Audi Centre Newcastle",
+    icon: meta,
+    iconBg: "#383E56",
+    date: "Oct 2022 - Current",
+    points: [
+      "Managed automotive parts inventory, ensuring accuracy in stock levels and order entries.",
+      "Coordinated with service advisors and technicians to streamline workshop operations.",
+      "Utilized dealership management systems to track parts, deliveries, and backorders.",
+      "Gained strong attention to detail and organizational skills, transferable to software development project management.",
+    ],
+  },
+  {
     title: "Fullstack Web Developer",
     company_name: "ZAIO Institute of Technology",
     icon: starbucks,
@@ -163,19 +178,6 @@ const experiences = [
       "Simulated real-world network architecture with secure VPN tunneling and virtual LAN setups.",
       "Tested basic IDS/IPS configurations and conducted manual threat detection using Wireshark and Nmap.",
       "Applied knowledge from SC-900, SC-300, and Google Cybersecurity certifications to harden access controls and encryption.",
-    ],
-  },
-  {
-    title: "Parts Receiving Clerk and Sales Executive",
-    company_name: "Audi Centre Newcastle",
-    icon: meta,
-    iconBg: "#383E56",
-    date: "Oct 2022 - Current",
-    points: [
-      "Managed automotive parts inventory, ensuring accuracy in stock levels and order entries.",
-      "Coordinated with service advisors and technicians to streamline workshop operations.",
-      "Utilized dealership management systems to track parts, deliveries, and backorders.",
-      "Gained strong attention to detail and organizational skills, transferable to software development project management.",
     ],
   },
   {
@@ -234,6 +236,48 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Multi-Dealership Platform (VW Group)",
+    description:
+      "Unified multi-tenant web architecture powering Newcastle, Ermelo, and Vryheid Volkswagen from a single codebase. Dynamically resolves active dealership branding, inventory, and branch operations via domain mapping and Firebase.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: vwDealership, // Replace with your imported asset
+    source_code_link: "https://github.com/SMOKEY1014/", // Add exact repo link
+  },
+  {
+    name: "Shortcutz Barber",
+    description:
+      "Luxury black-and-gold barbershop platform featuring a dynamic lookbook gallery, tiered pricing, an admin management dashboard, and a dual booking engine supporting both in-shop visits and 3-day advance mobile house calls with automated alerts.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: shortcutzBarber, // Replace with your imported asset
+    source_code_link: "https://github.com/SMOKEY1014/", // Add exact repo link
+  },
   {
     name: "Forever E-commerce Store",
     description:
