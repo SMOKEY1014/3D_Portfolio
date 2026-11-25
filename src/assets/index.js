@@ -84,5 +84,7 @@ export {
   sc300,
   sc400,
   sc900,
-  alx
+  alx,
+  shortcutzBarber,
+  vwDealership,
 };
